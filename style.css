@@ -1,0 +1,85 @@
+html, body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    margin-left: 10%;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button {
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+#gauche {
+    width: 33%;
+    height: 70%;
+    float: left;
+    background-image: linear-gradient(to right top, #cb1f46, #e74f37, #f87c22, #fcaa00, #f5d800);
+    border-right: 2px solid #fcaa00;
+
+}
+
+#milieu {
+    width: 33%;
+    height: 70%;
+    float: left;
+    background-image: linear-gradient(to left top, #cb1f46, #e74f37, #f87c22, #fcaa00, #f5d800);
+    border-right: 2px solid #e74f37;
+}
+
+#droite {
+    width: 33%;
+    height: 70%;
+    float: left;
+    background-image: linear-gradient(to right top, #cb1f46, #e74f37, #f87c22, #fcaa00, #f5d800);
+}
+
+
+.separator {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    height: 3px;
+    width: 20%;
+    border: none;
+    box-shadow: none;
+    background-color: #ea844e;
+}
+
+.separator2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    height: 3px;
+    width: 20%;
+    border: none;
+    box-shadow: none;
+    background-color: #cb1f46;
+}
+
+#titreResultat {
+
+}
+
