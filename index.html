@@ -19,15 +19,40 @@
 
     <hr class="separator2">
 
+    <!--<input id="DepenseUn" type="text" placeholder="Entrez la nature de la Dépense"><br> -->
+
+    <label for="Nature-Select"> Choisir Nature Dépense : </label>
+    <br>
+    <select name="" id="Nature-Select">
+        <option value="Loyer" id="Loyer">loyer et charges</option>
+        <option value="Crédits">remboursement de crédits</option>
+        <option value="Eau">Eau</option>
+        <option value="Elec">Électricité</option>
+        <option value="Gaz">Gaz</option>
+        <option value="Telephone">Télèphone et Internet</option>
+        <option value="habitation">Assurance habitation</option>
+        <option value="vehicule">Assurance véhicule</option>
+        <option value="santé">Mutuelle Santé</option>
+        <option value="garde">Frais de Garde</option>
+        <option value="revenu">impôts sur le Revenu</option>
+        <option value="locaux">Impôts Locaux</option>
+    </select>
+    <br>
+    <input id="DepenseQuatre" type="text" placeholder="Èntrez la Dépense">
+    <button id="SubmitDepense1">Envoyer</button>
+
+    <br> <p>Où</p><br>
     <input id="DepenseUn" type="text" placeholder="Entrez la nature de la Dépense"><br>
+
     <input id="DepenseDeux" type="text" placeholder="Èntrez la Dépense">
-    <button id="SubmitDepense">Envoyer</button>
+    <button id="SubmitDepense2">Envoyer</button>
 
     <hr class="separator2">
 
     <p id="Resultat"></p>
-    <p>Résultat : </p>
-    <p id="TitreResultat"></p>
+
+    <span>Résultat : </span>
+    <span id="TitreResultat"></span>
 
 </div>
 
@@ -37,15 +62,30 @@
 
     <hr class="separator2">
 
+    <label for="Nature-Select"> Choisir Nature Recette : </label>
+    <br>
+    <select name="" id="NatureSelect">
+        <option value="salaire" id="salaire">Salaires</option>
+        <option value="Aides">Les Aides ...</option>
+        <option value="rentes">Rentes</option>
+    </select>
+    <br>
+    <input id="RecetteQuatre" type="text" placeholder="Èntrez la Dépense">
+    <button id="SubmitRecette1">Envoyer</button>
+
+    <br> <p>Où</p><br>
+
     <input id="RecetteUn" type="text" placeholder="Entrez la nature de la Recette"><br>
     <input id="RecetteDeux" type="text" placeholder="Entrez la Recette   ">
-    <button id="SubmitRecette">Envoyer</button>
+    <button id="SubmitRecette2">Envoyer</button>
 
     <hr class="separator2">
 
     <p id="Resultat2"></p>
 
-    <p id="TitreResultat2">Résultat : </p>
+    <span>Résultat : </span>
+    <span id="TitreResultat2"></span>
+
 
 
 </div>
@@ -64,7 +104,8 @@
 
     <p id="Resultat3"></p>
 
-    <p id="titreResultat3">Résultat : </p>
+    <span>Résultat : </span>
+    <span id="titreResultat3"></span>
 
 </div>
 
